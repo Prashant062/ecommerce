@@ -1,0 +1,120 @@
+.header-section {
+  width: 1280px;
+  height: 105px;
+  box-shadow: 0px 2px 16px 0px #00000029;
+  position: relative;
+  left: 45px;
+  background-color: #0c0c0c;
+}
+.top-header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  width: 250px;
+  position: relative;
+  height: 28px;
+  top: 19px;
+  left: 50px;
+  gap: 0px;
+  opacity: 0px;
+}
+.text span {
+  font-family: "Comme";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.34px;
+  letter-spacing: 0.55em;
+  text-align: left;
+}
+.icon {
+  width: 190px;
+  height: 24px;
+  position: relative;
+  top: 21px;
+  gap: 10px;
+  opacity: 0px;
+}
+.icon a {
+  width: 24px;
+  height: 24px;
+  padding: 3px 0px 0px 0px;
+  margin: 0 10px;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 472px;
+  height: 18px;
+  padding: 10px 0;
+  color: #fff;
+  position: relative;
+  left: 400px;
+  top: 20px;
+}
+
+.header-bottom ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header-bottom ul li {
+  margin: 0 15px;
+}
+
+.header-bottom ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.header-bottom ul li a:hover {
+  color: #aec4db;
+}
+
+.accesories {
+  display: flex;
+  width: 1280px;
+  height: 115px;
+  box-shadow: 0px 2px 16px 0px #00000029;
+  position: relative;
+  left: 45px;
+  top: 10px;
+  gap: 65px;
+  background-color: #0c0c0c;
+}
+
+.image {
+  width: 90px;
+  height: 114px;
+  position: relative;
+  left: 40px;
+}
+.image img {
+  width: 90px;
+  height: 80px;
+  gap: 0px;
+  opacity: 0px;
+  background: #ffffff;
+}
+.image p {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 16px;
+  font-family: "Encode Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16.25px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #e5dfd9;
+}
+
